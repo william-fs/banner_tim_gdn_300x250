@@ -13,3 +13,366 @@
   background-image: url("img/bg.jpg");
 }
 
+.box_a1 {
+  position: absolute;
+  transform: translateX(-140px);
+  transition: all 1s;
+}
+
+.box_a1._in {
+  transform: translateX(0px);
+}
+
+.box_a2 {
+  position: absolute;
+  transform: translateX(130px);
+  transition: all 1s;
+}
+
+.box_a2._in {
+  transform: translateX(0px);
+}
+
+.box_c1 {
+  position: absolute;
+  transform: translateX(-120px);
+  transition: all 1s;
+}
+
+.box_c1._in {
+  transform: translateX(0px);
+}
+
+.line {
+  background-color: rgb(147, 201, 14);
+  position: absolute;
+  left: 15px;
+  top: 29px;
+  width: 0px;
+  height: 2px;
+  z-index: 41;
+}
+
+.line._in {
+  width: 97px;
+}
+
+.tim_texto {
+  background-image: url("img/tim_texto.png");
+  position: absolute;
+  left: 14px;
+  top: 16px;
+  width: 97px;
+  height: 10px;
+  z-index: 40;
+}
+
+.logo {
+  background-image: url("img/logo.png");
+  position: absolute;
+  left: 219px;
+  top: 15px;
+  width: 66px;
+  height: 18px;
+  z-index: 39;
+}
+
+.preco {
+  background-image: url("img/preco.png");
+  position: absolute;
+  left: 197px;
+  top: 207px;
+  width: 87px;
+  height: 29px;
+  z-index: 38;
+}
+
+.cta_texto {
+  background-image: url("img/cta_texto.png");
+  position: absolute;
+  left: 23px;
+  top: 218px;
+  width: 71px;
+  height: 10px;
+  z-index: 37;
+}
+
+.cta_fundo {
+  background-image: url("img/cta_fundo.png");
+  position: absolute;
+  left: 15px;
+  top: 214px;
+  width: 86px;
+  height: 20px;
+  z-index: 36;
+}
+
+.a1 {
+  background-image: url("img/a1.png");
+  position: absolute;
+  left: 11px;
+  top: 72px;
+  width: 74px;
+  height: 106px;
+  z-index: 3;
+}
+
+.a2 {
+  background-image: url("img/a2.png");
+  position: absolute;
+  left: 83px;
+  top: 130px;
+  width: 15px;
+  height: 20px;
+  z-index: 4;
+}
+
+.a3 {
+  background-image: url("img/a3.png");
+  position: absolute;
+  left: 95px;
+  top: 103px;
+  width: 37px;
+  height: 49px;
+  z-index: 5;
+}
+
+.a4 {
+  background-image: url("img/a4.png");
+  position: absolute;
+  left: 83px;
+  top: 152px;
+  width: 41px;
+  height: 27px;
+  z-index: 6;
+}
+
+.ate_a {
+  background-image: url("img/ate_a.png");
+  position: absolute;
+  left: 83px;
+  top: 72px;
+  width: 24px;
+  height: 14px;
+  z-index: 7;
+}
+
+.m_a {
+  background-image: url("img/m_a.png");
+  position: absolute;
+  left: 143px;
+  top: 111px;
+  width: 42px;
+  height: 41px;
+  z-index: 8;
+}
+
+.a5 {
+  background-image: url("img/a5.png");
+  position: absolute;
+  left: 183px;
+  top: 72px;
+  width: 82px;
+  height: 106px;
+  z-index: 9;
+}
+
+.a6 {
+  background-image: url("img/a6.png");
+  position: absolute;
+  left: 234px;
+  top: 136px;
+  width: 47px;
+  height: 29px;
+  z-index: 10;
+}
+
+.bonus_a {
+  background-image: url("img/bonus_a.png");
+  position: absolute;
+  left: 236px;
+  top: 162px;
+  width: 53px;
+  height: 19px;
+  z-index: 11;
+}
+
+.serpentinas_a {
+  background-image: url("img/serpentinas_a.png");
+  position: absolute;
+  left: 45px;
+  top: 0px;
+  width: 235px;
+  height: 92px;
+  z-index: 12;
+}
+
+.linha_b {
+  background-image: url("img/linha_b.png");
+  position: absolute;
+  left: 41px;
+  top: 62px;
+  width: 230px;
+  height: 125px;
+  z-index: 15;
+}
+
+.fundo_b {
+  background-image: url("img/fundo_b.png");
+  position: absolute;
+  left: 49px;
+  top: 70px;
+  width: 213px;
+  height: 109px;
+  z-index: 16;
+}
+
+.ilim_b {
+  background-image: url("img/ilim_b.png");
+  position: absolute;
+  left: 67px;
+  top: 134px;
+  width: 176px;
+  height: 26px;
+  z-index: 17;
+}
+
+.gratis_b {
+  background-image: url("img/gratis_b.png");
+  position: absolute;
+  left: 126px;
+  top: 120px;
+  width: 113px;
+  height: 12px;
+  z-index: 18;
+}
+
+.social_b {
+  background-image: url("img/social_b.png");
+  position: absolute;
+  left: 58px;
+  top: 79px;
+  width: 180px;
+  height: 42px;
+  z-index: 19;
+}
+
+.confete_b {
+  background-image: url("img/confete_b.png");
+  position: absolute;
+  left: 0px;
+  top: 74px;
+  width: 300px;
+  height: 94px;
+  z-index: 20;
+}
+
+.ate_c {
+  background-image: url("img/ate_c.png");
+  position: absolute;
+  left: 10px;
+  top: 115px;
+  width: 23px;
+  height: 14px;
+  z-index: 23;
+}
+
+.c1 {
+  background-image: url("img/c1.png");
+  position: absolute;
+  left: 17px;
+  top: 70px;
+  width: 69px;
+  height: 99px;
+  z-index: 24;
+}
+
+.c2 {
+  background-image: url("img/c2.png");
+  position: absolute;
+  left: 59px;
+  top: 124px;
+  width: 14px;
+  height: 19px;
+  z-index: 25;
+}
+
+.c3 {
+  background-image: url("img/c3.png");
+  position: absolute;
+  left: 65px;
+  top: 77px;
+  width: 59px;
+  height: 74px;
+  z-index: 26;
+}
+
+.c4 {
+  background-image: url("img/c4.png");
+  position: absolute;
+  left: 50px;
+  top: 151px;
+  width: 43px;
+  height: 31px;
+  z-index: 27;
+}
+
+.fundo_c {
+  background-image: url("img/fundo_c.png");
+  position: absolute;
+  left: 137px;
+  top: 87px;
+  width: 159px;
+  height: 86px;
+  z-index: 28;
+}
+
+.social_c {
+  background-image: url("img/social_c.png");
+  position: absolute;
+  left: 143px;
+  top: 94px;
+  width: 131px;
+  height: 32px;
+  z-index: 29;
+}
+
+.gratis_c {
+  background-image: url("img/gratis_c.png");
+  position: absolute;
+  left: 183px;
+  top: 125px;
+  width: 93px;
+  height: 10px;
+  z-index: 30;
+}
+
+.ilim_c {
+  background-image: url("img/ilim_c.png");
+  position: absolute;
+  left: 151px;
+  top: 135px;
+  width: 127px;
+  height: 19px;
+  z-index: 31;
+}
+
+.m_c {
+  background-image: url("img/m_c.png");
+  position: absolute;
+  left: 115px;
+  top: 117px;
+  width: 39px;
+  height: 39px;
+  z-index: 32;
+}
+
+.serpentinas_c {
+  background-image: url("img/serpentinas_c.png");
+  position: absolute;
+  left: 44px;
+  top: 0px;
+  width: 239px;
+  height: 104px;
+  z-index: 33;
+}
