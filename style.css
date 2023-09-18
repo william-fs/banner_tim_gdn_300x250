@@ -5,6 +5,113 @@
   transition: all 0.5s;
 }
 
+/***************
+    Animation Classes
+*****************/
+  
+.mov {
+  transform: rotate(0deg);
+  transition: all 0.2s;
+}
+
+.mov._in {
+  transform: rotate(25deg);
+  transition: all 0.2s;
+}
+
+.mov._in2 {
+  transform: rotate(-25deg);
+  transition: all 0.2s;
+}
+
+.itn-op {
+  opacity: 0;
+}
+
+.itn-op._in {
+  opacity: 1;
+}
+
+.itn-left{
+    opacity: 0;
+    transform: translateX(-30px);
+}
+
+.itn-right{
+    opacity: 0;
+    transform: translateX(30px);
+}
+
+.itn-left._in, .itn-right._in{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.scale-op {
+transform: scale(0);
+opacity: 0;
+}
+
+.scale-op._in {
+opacity: 1;
+transform: scale(1);
+}
+
+.scale {
+transform: scale(0);
+}
+
+.scale._in {
+transform: scale(1);
+}
+
+.scale2 {
+  transform: scale(1.2);
+  opacity: 0;
+}
+
+.scale2._in {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.itn-v{
+    opacity: 0;
+    transform: translateY(30px);
+    transition-timing-function: ease-in-out;
+}
+
+.itn-v._in {
+    opacity: 1;
+    transform: translateY(0);
+    transition-timing-function: ease-in-out;
+}
+
+.itn-v2{
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+.itn-v2._in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.itn-v._scale {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.rotate {
+  transform: rotateY(400deg) scale(0);
+  transition: all 1s;
+}
+
+.rotate._in {
+  transform: rotateY(0deg) scale(1);
+}
+
 .banner{
   width: 300px;
   height: 250px;
